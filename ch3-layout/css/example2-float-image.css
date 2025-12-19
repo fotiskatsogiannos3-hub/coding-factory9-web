@@ -1,0 +1,13 @@
+.main {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.main > img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
