@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/example4-mockup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header -->
+        <header>
+            <div class="logo">
+                <img src="../img/aueb-img.jpg" alt="AUEB Image">
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                    <a href="#">Home</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">menu 1</a></li>
+                        <li><a href="#">menu 2</a></li>
+                        <li><a href="#">menu 3</a></li>
+                        <li><a href="#">menu 4</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">We Educate</a></li>
+                    <li><a href="#">We Innovate</a></li>
+                    <li><a href="#">We Are</a></li>
+                </ul>
+            </nav>
+
+            <div class="navbar-toggler">
+                <button type="button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </header>
+
+
+        <div class="menu-toggler">
+            <ul>
+                <li><a href="#">menu 1</a></li>
+                <li><a href="#">menu 2</a></li>
+            </ul>
+        </div>
+
+    <!-- Image Slider  -->
+     <div class="home-img">
+        <div class="home-title">
+            <span>All you need is love, passion, design, software and ... <br> Coding Factory</span>
+        </div>
+     </div>
+    </div>
+
+    <!-- Main -->
+     <main class="mt-2">
+        <h2 class="mb-2">Coding Factory</h2>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quam cupiditate enim veritatis! Laboriosam rerum tenetur ad vel nulla ullam at culpa, voluptatibus velit rem! Libero magni neque optio vel.
+        </section>
+        <section>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore nesciunt mollitia facere reprehenderit animi sequi, quod eveniet aut rerum, illo qui, sunt nostrum minima vel modi dolor. Voluptatum, blanditiis in.
+        </section>
+        <section>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente ipsam, ullam non facere nulla dignissimos assumenda laudantium, iste ea quis molestias et repudiandae? Eaque totam fugit similique reprehenderit earum porro.
+        </section>
+        <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quaerat fugit cum sed? Error deserunt esse consequuntur, sint maiores quos harum, consequatur, rem alias nemo voluptatem eius. Sunt, itaque aliquam.
+        </section>
+     </main>
+
+     <!-- Footer -->
+      <footer>
+        <div>&copy Coding Factory 2026 - Athens University of....</div>
+        <div>
+            <span>Follow Us:</span>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+      </footer>
+
+      <script>
+        const img = document.querySelector('.home-img')
+      const toggleBtn = document.querySelector('.navbar-toggle')
+      const navbarToggle = document.querySelector('.meun-toggler')
+      const main = document.querySelector('.main')
+      const footer = document.querySelector('.footer')
+ 
+      toggleBtn.addEventListener('click', function() {
+          img.classList.toggle('hidden')
+          navbarToggle.classList.toggle('show')
+          main.classList.toggle('hidden')
+          footer.classList.toggle('hidden')
+      })
+      </script>
+
+</body>
+</html>
