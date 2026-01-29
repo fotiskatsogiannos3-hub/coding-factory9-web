@@ -1,0 +1,18 @@
+/* .bg-dark {
+    background-color: #006699 !important;
+} */
+
+.bg-blue {
+    background-color: #006699;
+}
+
+header {
+    height: 500px;
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 50%;
+    
+}
