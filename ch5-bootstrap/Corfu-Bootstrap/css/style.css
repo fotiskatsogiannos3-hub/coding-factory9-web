@@ -13,6 +13,18 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 50%;
-    
+    min-height: 50%;   
+}
+
+.line {
+    background-color: #006699;
+}
+
+.card-img {
+    height: 250px;
+}
+
+.social a {
+    color: white;
+    font-size: 2rem;
 }
